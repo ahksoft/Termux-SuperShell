@@ -1,4 +1,3 @@
----
 
 Termux Super Shell
 
