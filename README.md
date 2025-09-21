@@ -9,20 +9,18 @@
 
 A complete Zsh-based power setup for Termux with **autosuggestions, syntax highlighting, Powerlevel10k theme, custom colors, and MOTD banner** — all in a single one-click install.
 
----
 
 ## 🛠️ Installation
 
 Run this command inside Termux:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ahksoft/ahk-termux-desktop/main/setup-termux-complete.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-termux-supershell.sh | bash
 
 Or click here to view the script:
 View Setup Script
 
 
----
 
 ✨ Features
 
@@ -42,7 +40,6 @@ View Setup Script
 
 
 
----
 
 🌟 Benefits
 
@@ -54,7 +51,6 @@ View Setup Script
 ✅ Fully automated installation — no manual steps required
 
 
----
 
 📖 User Guide
 
@@ -94,7 +90,6 @@ On startup, a custom MOTD banner shows battery percentage and temperature.
 
 
 
----
 
 📸 Screenshots
 
@@ -115,7 +110,6 @@ On startup, a custom MOTD banner shows battery percentage and temperature.
 
 
 
----
 
 ⚡ Troubleshooting
 
@@ -129,10 +123,8 @@ pkg install termux-api
 
 
 
----
 
 📜 License
 
 MIT License © 2025 AHK Soft
 
----
