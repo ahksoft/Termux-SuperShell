@@ -40,10 +40,15 @@ curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setu
 ## 🌟 Benefits
 
 ✅ Faster and more productive terminal experience
+
 ✅ Beautiful, modern look with Powerlevel10k
+
 ✅ Smarter command-line with autosuggestions & autocomplete
+
 ✅ Easier navigation with directory and command hints
+
 ✅ Always see your battery level and temperature right in the banner
+
 ✅ Fully automated installation — no manual steps required
 
 
@@ -71,7 +76,10 @@ Follow the interactive setup to choose your prompt style.
 
 2. Autosuggestions – Start typing a command and press
 
+---
 ←↑↓→ Arrow key to accept/select the suggestion.
+---
+
 
 
 
