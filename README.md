@@ -22,13 +22,11 @@ curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setu
 ---
 ## ✨ Features
 
-⚡ Zsh with Zinit – modern, fast, and flexible shell setup
+⚡ Custom shell Powered by Zsh – modern, fast, and flexible shell setup
 
 🎨 Powerlevel10k theme – beautiful and customizable prompt
 
 🔮 Autosuggestions & Highlighting – intelligent command hints and syntax colors
-
-🧭 FZF history search – fuzzy search through your shell history
 
 🗂️ Enhanced completions – smarter and richer tab completion
 
@@ -54,13 +52,18 @@ curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setu
 
 ## 📖 User Guide
 
-After installation, restart Termux. You’ll notice:
+After installation, restart Termux or run:
+```
+zsh
+```
+. You’ll notice:
 
 1. New Shell – Zsh with Powerlevel10k will launch.
 
 If the Powerlevel10k wizard doesn’t start automatically, run:
-
+```
 p10k configure
+```
 
 Follow the interactive setup to choose your prompt style.
 
@@ -68,19 +71,16 @@ Follow the interactive setup to choose your prompt style.
 
 2. Autosuggestions – Start typing a command and press
 
-→ (Right Arrow) to accept the suggestion.
+←↑↓→ Arrow key to accept/select the suggestion.
 
-Ctrl + Space to insert partially.
 
 
 
 3. Syntax Highlighting – Commands turn green if valid, red if invalid.
 
 
-4. History Search (FZF) – Press Ctrl + R and type to fuzzy search history.
 
-
-5. Custom Colors & MOTD
+4. Custom Colors & MOTD
 
 Termux colors are applied automatically.
 
@@ -115,7 +115,10 @@ On startup, a custom MOTD banner shows system info, battery percentage and tempe
 
 No zi command found – Run installation again, or check if ~/.zinit was created.
 
-Powerlevel10k not applied – Run p10k configure.
+Powerlevel10k not applied – Run: 
+```
+p10k configure
+```
 
 Battery/temperature not shown – Install termux-api:
 
