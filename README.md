@@ -15,14 +15,13 @@ A complete Zsh-based power setup for Termux with **autosuggestions, syntax highl
 Run this command inside Termux:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-termux-supershell.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-super-shell.sh | bash
 
 Or click here to view the script:
 View Setup Script
 
 
-
-✨ Features
+##✨ Features
 
 ⚡ Zsh with Zinit – modern, fast, and flexible shell setup
 
