@@ -7,12 +7,13 @@ A powerful, feature-rich shell environment for Termux on Android.
 
 ---
 
-🛠️ Installation
+
+## 🛠️ Installation
 
 Run the following command in Termux:
 
+```bash
 curl -fsSL https://raw.githubusercontent.com/ahksoft/ahk-termux-desktop/main/setup-termux-complete.sh | bash
-
 This one-click script install Termux Super Shell automatically.
 
 
