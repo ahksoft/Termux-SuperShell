@@ -1,231 +1,138 @@
 
-Termux Super Shell
+# 🚀 Termux Super Shell
 
-A powerful, feature-rich shell environment for Termux on Android.
+![Shell](https://img.shields.io/badge/Shell-Zsh-blue?logo=gnu-bash&logoColor=white)
+![Theme](https://img.shields.io/badge/Theme-Powerlevel10k-purple?logo=starship&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Termux-orange?logo=android&logoColor=white)
+![Last Update](https://img.shields.io/github/last-commit/ahksoft/ahk-termux-desktop?label=Last%20Update)
 
+A complete Zsh-based power setup for Termux with **autosuggestions, syntax highlighting, Powerlevel10k theme, custom colors, and MOTD banner** — all in a single one-click install.
 
 ---
-
 
 ## 🛠️ Installation
 
-Run the following command in Termux:
+Run this command inside Termux:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ahksoft/ahk-termux-desktop/main/setup-termux-complete.sh | bash
-This one-click script install Termux Super Shell automatically.
+
+Or click here to view the script:
+View Setup Script
 
 
 ---
 
-## 🚀 Features
+✨ Features
 
-Zsh Shell: Modern, user-friendly shell with advanced features.
+⚡ Zsh with Zinit – modern, fast, and flexible shell setup
 
-Powerlevel10k Theme: Fast, highly customizable prompt for Zsh.
+🎨 Powerlevel10k theme – beautiful and customizable prompt
 
-Oh My Zsh: Framework for managing Zsh configuration.
+🔮 Autosuggestions & Highlighting – intelligent command hints and syntax colors
 
-Syntax Highlighting: Real-time command syntax validation.
+🧭 FZF history search – fuzzy search through your shell history
 
-Auto-suggestions: Predicts commands as you type.
+🗂️ Enhanced completions – smarter and richer tab completion
 
-Fuzzy Finder: Quickly search through command history.
+🎛️ Custom Termux colors & properties – optimized color scheme and config
 
-Smart Completion: Intelligent tab completion for directories & executables.
-
-MOTD with System info, Battery & Temperature: Displays all system info at startup.
-
-Termux Color Scheme: Custom color settings for better aesthetics.
-
-Custom Aliases: Predefined shortcuts for common commands.
-
-One-Click Setup: Install & configure everything with a single command.
+📢 Custom MOTD banner – greeting with battery level, temperature, and system info
 
 
 
 ---
 
-## 🎯 Benefits
+🌟 Benefits
 
-Enhanced Productivity: Faster navigation, intelligent tab completion, and auto-suggestions reduce typing.
+✅ Faster and more productive terminal experience
+✅ Beautiful, modern look with Powerlevel10k
+✅ Smarter command-line with autosuggestions & autocomplete
+✅ Easier navigation with directory and command hints
+✅ Always see your battery level and temperature right in the banner
+✅ Fully automated installation — no manual steps required
 
-Beautiful & Functional Prompt: Powerlevel10k shows useful system info at a glance.
 
-Better Readability: Syntax highlighting and Termux color scheme make reading commands easier.
+---
 
-Quick Access to History: FZF fuzzy search lets you find previous commands instantly.
+📖 User Guide
+
+After installation, restart Termux. You’ll notice:
+
+1. New Shell – Zsh with Powerlevel10k will launch.
+
+If the Powerlevel10k wizard doesn’t start automatically, run:
+
+p10k configure
+
+Follow the interactive setup to choose your prompt style.
 
 
-Customizable: Easily tweak aliases, prompt theme, and colors to suit your workflow.
 
-Beginner-Friendly: One-click setup installs everything automatically; no manual configuration required.
+2. Autosuggestions – Start typing a command and press
+
+→ (Right Arrow) to accept the suggestion.
+
+Ctrl + Space to insert partially.
+
+
+
+3. Syntax Highlighting – Commands turn green if valid, red if invalid.
+
+
+4. History Search (FZF) – Press Ctrl + R and type to fuzzy search history.
+
+
+5. Custom Colors & MOTD
+
+Termux colors are applied automatically.
+
+On startup, a custom MOTD banner shows battery percentage and temperature.
+
+
 
 
 
 ---
 
-📸 Showcase
+📸 Screenshots
+
+> Upload your screenshots to the repo (e.g., /images/) or GitHub issues/wiki, then update the paths below.
+
+
+
+🖥️ Terminal with Powerlevel10k
+
+
+
+🔋 MOTD with Battery & Temperature
+
+
+
+🎨 Termux Colors Applied
 
 
 
 
 ---
 
-⚙️ Configuration
+⚡ Troubleshooting
 
-After installation, the script will:
+No zi command found – Run installation again, or check if ~/.zinit was created.
 
-Install and configure Zsh with Oh My Zsh.
+Powerlevel10k not applied – Run p10k configure.
 
-Set Powerlevel10k as the default theme.
+Battery/temperature not shown – Install termux-api:
 
-Apply the Termux color scheme.
-
-Set up essential plugins for auto-suggestions, FZF history, and syntax highlighting.
-
-Download and configure .aliases.
-
-
-Set Zsh as the default shell.
+pkg install termux-api
 
 
 
 ---
 
-📄 MOTD (Message of the Day)
+📜 License
 
-The motd.sh script displays system info at startup:
-
-Battery Level: Current battery percentage.
-
-Temperature: Device temperature in Celsius.
-
-System Uptime: How long the system has been running.
-
-Memory Usage: Current RAM usage.
-
-Disk Usage: Storage usage.
-
-User Information: Current user and hostname.
-
-
+MIT License © 2025 AHK Soft
 
 ---
-
-🎨 Termux Color Scheme
-
-The script applies a custom color scheme to your Termux environment, improving readability and aesthetics.
-
-
----
-
-🧑‍💻 User Guide
-
-1. Starting Termux Super Shell
-
-Restart Termux or run:
-
-exec zsh
-
-Follow the Powerlevel10k setup wizard if it appears.
-
-
----
-
-2. Using Aliases
-
-View all aliases:
-
-alias
-
-Example:
-
-ll      # Long listing with colors
-..      # Go up one directory
-
-
----
-
-3. Auto-Suggestions & Syntax Highlighting
-
-Type a previous command, press → or Ctrl+Space to accept suggestions.
-
-Commands are color-highlighted for better readability.
-
-
-
----
-
-4. Fuzzy History Search
-
-Press Ctrl+R to search your command history using fzf. Type part of a previous command and press Enter to execute it.
-
-
----
-
-5. Smart Tab Completion
-
-cd auto-completes directories.
-
-Executable scripts in the current directory are suggested when you type ./.
-
-
-
----
-
-6. Applying Termux Colors & MOTD
-
-Re-apply colors or MOTD anytime:
-
-set_termux_colors
-
-
----
-
-7. Reset Powerlevel10k Theme
-
-Reconfigure Powerlevel10k:
-
-set_10k_theme
-
-Restart Zsh:
-
-exec zsh
-
-
----
-
-8. Installing Missing Commands Automatically
-
-If a command is missing, the shell may prompt to install the required package automatically.
-
-
----
-
-9. Updating Termux Super Shell
-
-Update scripts or plugins:
-
-cd $HOME/.local/share/zinit
-git pull
-
-Or manually re-run the setup script.
-
-
----
-
-🛠️ Troubleshooting
-
-Permissions Issues: Ensure scripts are executable:
-
-
-chmod +x ~/.termux/motd.sh
-chmod +x ~/.termux-colors/termux-color
-
-Missing Packages: Install manually:
-
-
-pkg install <package-name>
-
-MOTD Not Displaying: Check motd.sh is executable.
