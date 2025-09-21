@@ -19,7 +19,7 @@ This one-click script install Termux Super Shell automatically.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 Zsh Shell: Modern, user-friendly shell with advanced features.
 
@@ -47,7 +47,7 @@ One-Click Setup: Install & configure everything with a single command.
 
 ---
 
-🎯 Benefits
+## 🎯 Benefits
 
 Enhanced Productivity: Faster navigation, intelligent tab completion, and auto-suggestions reduce typing.
 
