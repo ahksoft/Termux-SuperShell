@@ -16,6 +16,7 @@ Run this command inside Termux:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-super-shell.sh | bash
+```
 
 Or click here to view the script:
 View Setup Script
