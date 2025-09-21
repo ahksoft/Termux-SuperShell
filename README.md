@@ -15,8 +15,8 @@ A complete Zsh-based power setup for Termux with **autosuggestions, syntax highl
 Run this command inside Termux:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-super-shell.sh | bash
-```
+curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-super-shell.sh -o ~/setup-super-shell.sh && chmod +x ~/setup-super-shell.sh && bash /̶s̶e̶t̶u̶p̶-̶s̶u̶p̶e̶r̶-̶s̶h̶e̶l̶l̶.̶s̶h̶
+`̶`̶`̶
 
 
 ---
