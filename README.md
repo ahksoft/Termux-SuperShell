@@ -18,11 +18,9 @@ Run this command inside Termux:
 curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-super-shell.sh | bash
 ```
 
-Or click here to view the script:
-View Setup Script
 
-
-##✨ Features
+---
+## ✨ Features
 
 ⚡ Zsh with Zinit – modern, fast, and flexible shell setup
 
@@ -36,12 +34,12 @@ View Setup Script
 
 🎛️ Custom Termux colors & properties – optimized color scheme and config
 
-📢 Custom MOTD banner – greeting with battery level, temperature, and system info
+📢 Custom MOTD banner – greeting with system info, battery level & temperature.
+
+---
 
 
-
-
-🌟 Benefits
+## 🌟 Benefits
 
 ✅ Faster and more productive terminal experience
 ✅ Beautiful, modern look with Powerlevel10k
@@ -51,8 +49,10 @@ View Setup Script
 ✅ Fully automated installation — no manual steps required
 
 
+---
 
-📖 User Guide
+
+## 📖 User Guide
 
 After installation, restart Termux. You’ll notice:
 
@@ -84,14 +84,14 @@ Ctrl + Space to insert partially.
 
 Termux colors are applied automatically.
 
-On startup, a custom MOTD banner shows battery percentage and temperature.
+On startup, a custom MOTD banner shows system info, battery percentage and temperature.
+
+
+---
 
 
 
-
-
-
-📸 Screenshots
+## 📸 Screenshots
 
 > Upload your screenshots to the repo (e.g., /images/) or GitHub issues/wiki, then update the paths below.
 
@@ -108,10 +108,10 @@ On startup, a custom MOTD banner shows battery percentage and temperature.
 🎨 Termux Colors Applied
 
 
+---
 
 
-
-⚡ Troubleshooting
+## ⚡ Troubleshooting
 
 No zi command found – Run installation again, or check if ~/.zinit was created.
 
@@ -119,12 +119,15 @@ Powerlevel10k not applied – Run p10k configure.
 
 Battery/temperature not shown – Install termux-api:
 
+```
 pkg install termux-api
+```
 
 
+---
 
-
-📜 License
+## 📜 License
 
 MIT License © 2025 AHK Soft
+---
 
