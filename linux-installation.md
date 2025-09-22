@@ -101,8 +101,9 @@ set_10k_theme
 
 To update Super Shell, simply pull the latest script and re-run:
 
-bash linux-install.sh
-
+```
+bash linux-super-shell.sh
+```
 
 ---
 
