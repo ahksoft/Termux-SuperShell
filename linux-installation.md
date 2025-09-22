@@ -51,10 +51,14 @@ This script will:
 4. Configure Powerlevel10k automatically
 
 
-📌 If get error like 
+📌 If you iget error like 
+
 **[INFO] Command 'eza' not found. Install manually.**
-But when you try to install eza, get another error
+
+But when you try to install eza, get another error like.
+
 **E: Unable to locate package eza**
+
 eza is not typically found in the default Ubuntu repositories, so you need to add a third-party repository.
 To install the eza repository run:
 ```
