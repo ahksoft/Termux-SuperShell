@@ -51,7 +51,7 @@ This script will:
 4. Configure Powerlevel10k automatically
 
 
-5. If get error like 
+📌 If get error like 
 **[INFO] Command 'eza' not found. Install manually.**
 But when you try to install eza, get another error
 **E: Unable to locate package eza**
