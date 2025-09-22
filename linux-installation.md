@@ -51,8 +51,12 @@ This script will:
 4. Configure Powerlevel10k automatically
 
 
-5. If get **[INFO] Command 'eza' not found. Install manually.** But when try to install eza get another error **E: Unable to locate package eza** to install the eza repository: eza is not typically found in the default Ubuntu repositories, so you need to add a third-party repository.
-run:
+5. If get error like 
+**[INFO] Command 'eza' not found. Install manually.**
+But when you try to install eza, get another error
+**E: Unable to locate package eza**
+eza is not typically found in the default Ubuntu repositories, so you need to add a third-party repository.
+To install the eza repository run:
 ```
 wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo tee /etc/apt/trusted.gpg.d/gierens.asc
     echo "deb http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
