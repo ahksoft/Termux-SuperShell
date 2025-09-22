@@ -2,13 +2,13 @@
 
 # 🐧 Super Shell – Linux Installation Guide
 
-Super Shell is a modern Zsh environment powered by **Zinit**, **Powerlevel10k**, and **MesloLGS NF Nerd Font**.  
+Super Shell is a modern Zsh environment powered by **Zsh**, **Powerlevel10k**, and **MesloLGS NF Nerd Font**.  
 It provides an advanced developer shell with autosuggestions, completions, history search, and a beautiful prompt.
 
 ---
 
 ## ⚡ Features
-- 🚀 Zsh + Zinit with plugin management
+- 🚀 Zsh with plugin management
 - 🎨 Powerlevel10k theme (with **MesloLGS NF** font for proper icons)
 - ⌨️ Autosuggestions, syntax highlighting, autocomplete
 - 🗂️ Aliases from `.aliases` file
