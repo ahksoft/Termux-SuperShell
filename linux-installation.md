@@ -27,7 +27,7 @@ It provides an advanced developer shell with autosuggestions, completions, histo
 
 ## 🔧 Installation
 
-If sudo is not installed run:
+Run this if sudo/curl not installed:
 ```
 apt update && apt install sudo -y && apt install curl -y
 ```
