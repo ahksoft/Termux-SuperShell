@@ -51,7 +51,7 @@ This script will:
 4. Configure Powerlevel10k automatically
 
 
-📌 If you iget error like 
+📌 If you get error like 
 
 **[INFO] Command 'eza' not found. Install manually.**
 
