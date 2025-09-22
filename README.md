@@ -18,7 +18,8 @@ Run this command inside Termux:
 curl -fsSL https://raw.githubusercontent.com/ahksoft/Termux-SuperShell/code/setup-super-shell.sh -o ~/setup-super-shell.sh && chmod +x ~/setup-super-shell.sh && bash ~/setup-super-shell.sh
 ```
 
-
+You can also install Super Shell on any Linux Distro 
+- **[For Linux installation](linux-installation.md)** -
 ---
 ## ✨ Features
 
