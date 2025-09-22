@@ -193,4 +193,5 @@ chsh -s zsh
 
 echo "✅ Complete Termux setup finished!"
 echo "💡 First Zsh launch will run Powerlevel10k wizard."
-echo "💡 Restart Termux or run "zsh" for complete instaltion."
+echo "👉 Restart Termux or run "zsh" for complete instaltion."
+rm ~/setup-super-shell.sh
