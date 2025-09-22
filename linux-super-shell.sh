@@ -207,5 +207,5 @@ chsh -s $(which zsh)
 
 echo "✅ Linux setup finished!"
 echo "💡 First Zsh launch will run Powerlevel10k wizard. Ensure 'MesloLGS NF' is selected as terminal font."
-echo "👉 You ready to go restart terminal or run "zsh" manually!"
+echo "👉 You ready to go restart terminal or run "zsh" manually for complete instaltion!"
 rm ~/linux-super-shell.sh
