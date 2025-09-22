@@ -29,7 +29,7 @@ It provides an advanced developer shell with autosuggestions, completions, histo
 
 If sudo is not installed run:
 ```
-apt install sudo
+apt install sudo -y && apt install curl -y
 ```
 
 Run the following command to install Super Shell:
