@@ -58,7 +58,8 @@ wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sud
     echo "deb http://deb.gierens.de stable main" | sudo tee /etc/apt/sources.list.d/gierens.list
 ```
 Then run:
-```sudo apt update && sudo apt install -y eza
+```
+sudo apt update && sudo apt install -y eza
 ```
 After installation, you can verify it by running:
 ```
