@@ -46,7 +46,7 @@ if command -v termux-battery-status >/dev/null 2>&1; then
     BAT=$(termux-battery-status)
     LEVEL=$(echo "$BAT" | grep -oP '"percentage":\s*\K[0-9]+')
     TEMP=$(echo "$BAT" | grep -oP '"temperature":\s*\K[0-9]+')
-    echo "🔋 Battery: $LEVEL% | 🌡️ Temp: ${TEMP}°C"
+
 else
     echo "🔋 Battery info not available. Install termux-api."
 fi
